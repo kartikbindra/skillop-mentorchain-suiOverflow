@@ -1,13 +1,10 @@
-# SKILLOP 
+# SKILLOP - Sui Overflow
 
 Welcome to the SKILLOP website repository! 
 
-## About SKILLOP Society
-
-SKILLOP Society is a student society at Delhi Technological University committed to fostering technical prowess, personal growth, and community engagement among students. Our website serves as a central platform for showcasing our initiatives, events, projects, and resources aimed at empowering students to excel as skilled tech professionals.
-
 ## Website Features
 
+- **Blockchain Integration**: Skillop works like an incentive based decentralized mentor and content creating platform where the creators and mentors gets paid in crypto tokens on every like,share or mentoring session.
 - **Home**: Learn about SKILLOP Society's mission, vision, and upcoming events.
 - **About Us**: Discover more about our society, leadership team, and our journey so far.
 - **Events**: Stay updated on our latest events, workshops, competitions, and tech talks.
@@ -28,6 +25,7 @@ SKILLOP Society is a student society at Delhi Technological University committed
 
 ## Technologies Used
 
+- **Sui Blockchain**: Leveraged the power of Sui blockchain in the platform.
 - **React**: Frontend framework for building the user interface.
 - **React Router**: Library for handling routing within the application.
 - **Styled Components**: CSS-in-JS library for styling components.
