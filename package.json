@@ -1,0 +1,34 @@
+{
+    "name": "skillop",
+    "version": "1.0.0",
+    "description": "# Lessons",
+    "main": "index.js",
+    "scripts": {
+        "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
+        "start": "node backend/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon backend/index.js && cd frontend && npm start",
+        "backdev": "nodemon backend/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/basir/mern-amazona.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/basir/mern-amazona/issues"
+    },
+    "homepage": "https://github.com/basir/mern-amazona#readme",
+    "devDependencies": {
+        "jest": "^29.7.0"
+    },
+    "dependencies": {
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.1",
+        "express": "^4.18.2",
+        "mongoose": "^8.1.1",
+        "react-hot-loader": "^4.13.1"
+    }
+}

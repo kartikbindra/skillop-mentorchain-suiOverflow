@@ -1,0 +1,489 @@
+
+
+ 
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.aboutpg-box-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.aboutpg-box1 p {
+    margin-right: 500px; 
+    font-size: 25px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.aboutpg-box2 p{
+   width: 100%;
+   font-size: 25px; 
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.aboutpg-box2 h2 {
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.aboutpg-box2 h1 {
+    margin-bottom: 10px;
+    text-align: right;
+}
+.aboutpg-box1 img {
+    height: 230px;
+    width: auto;
+    width: 100%; 
+    max-width: 300px; 
+    position: absolute; 
+    top: 20px; 
+    right: 20px; 
+    margin-bottom: 15px;
+}
+.aboutpg-box1 {
+    flex: 1;
+    height: 1500px; 
+    background-color: #ffffff; 
+   
+    border-top: 1px solid black; 
+    border-left: 1px solid black; 
+    border-right: 1px solid black;
+    border-bottom: 5px solid black;
+    border-radius: 30px 30px 30px 30px; 
+    margin-top: 70px;
+    padding: 20px;
+    align-items: flex-start;
+    position: relative;
+    transition: background-color 0.3s ease; 
+    
+}
+.aboutpg-box1:hover {
+    background-color: #f5fc97;
+    
+  }
+.aboutpg-box2 img {
+    height: 250px;
+    width: 100%; 
+    max-width: 300px; 
+    position: absolute; 
+    top: 20px;
+    left: 20px; 
+    margin-bottom: 5px;
+}
+.aboutpg-box2 {
+    flex: 1;
+    height: 1500px; 
+    background-color: #ffffff; 
+    margin: 5px; 
+    border-top: 1px solid black; 
+    border-left: 1px solid black; 
+    border-right: 1px solid black;
+    border-bottom: 5px solid black; 
+    border-radius: 30px 30px 30px 30px; 
+    margin: 30px;
+    padding: 20px;
+    position: relative;
+    transition: background-color 0.3s ease; 
+}
+.aboutpg-box2:hover {
+  
+    background-color:  #f5fc97;
+    
+  }
+.aboutpg-box-container1 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: auto;
+    max-width: 100%; 
+    margin-left: 100px;
+    margin-right: 100px;
+        
+}
+
+.aboutpg-box3 {
+    flex: 1;
+    height: 160px;
+    width:150px; 
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-top: 1px solid black; 
+    border-left: 1px solid black; 
+    border-right: 1px solid black;
+    border-bottom: 5px solid black; 
+    margin: 15px;
+    border-radius: 30px 30px 30px 30px;
+    transition: background-color 0.3s ease;
+    
+
+
+
+}
+.aboutpg-box3 p{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+.aboutpg-box3:hover {
+    
+    background-color: #a4ea91;
+    
+  }
+.aboutpg-box4 {
+    width: 80%; 
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-top: 1px solid black; 
+    border-left: 1px solid black; 
+    border-right: 1px solid black;
+    border-bottom: 5px solid black;
+    border-radius: 30px 30px 30px 30px;
+    position: relative;
+    transition: background-color 0.3s ease; 
+}
+.aboutpg-box4:hover {
+    
+    background-color:  #f78d75;
+    
+  }
+.aboutpg-box4 p{
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+.btn {
+    position: absolute;
+    bottom: 10px; 
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color:yellow;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px 25px 25px 25px;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid #2980b9;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    
+}
+.btn:hover {
+    background-color: #2980b9;
+    color: #ffffff;
+    
+  }
+.aboutpg-box-container2 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+
+    max-width: 100%; 
+    margin-right: 100px;
+    margin-left: 100px;
+        
+}
+.aboutpg-box5 {
+    width: 30%;
+    height:180px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-top: 1px solid black; 
+    border-left: 1px solid black; 
+    border-right: 1px solid black;
+    border-bottom: 5px solid black;
+    border-radius: 40px 40px 40px 40px;
+    margin-bottom: 100px;
+    background-color: #3498db;
+    transition: background-color 0.3s ease; 
+    
+}
+.aboutpg-box5 p{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+.aboutpg-box5:hover {
+  
+    background-color:  #7ba4cd;
+    
+  }
+.aboutpg-form-box {
+    flex: 1;
+    height: fit-content;
+    width:45%; 
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-top: 1px solid black; 
+    border-left: 1px solid black; 
+    border-right: 1px solid black;
+    border-bottom: 5px solid black; 
+    margin: 15px;
+    border-radius: 30px 30px 30px 30px; 
+    position: relative;
+    margin-bottom: 100px;
+    margin-left: 30px;
+    transition: background-color 0.3s ease; 
+}
+.aboutpg-form-box:hover {
+    
+    background-color:  #f5fc97;
+    
+  }
+
+.aboutpg-form-box label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.aboutpg-form-box input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid black; 
+  border-radius: 5px;
+}
+
+.aboutpg-form-box button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+}
+
+/* Add this at the end of your CSS file */
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .aboutpg-box-container {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .aboutpg-box1,.aboutpg-box2{
+        flex-direction: column-reverse;
+    }
+    .aboutpg-box1,
+    .aboutpg-box2,
+    .aboutpg-box3,
+    .aboutpg-box4,
+    .aboutpg-box5 {
+    flex: 1;
+    max-width: 400px;
+    margin: 10px;
+}
+    .aboutpg-box1 p,
+    .aboutpg-box2 p,
+    .aboutpg-box3 p,
+    .aboutpg-box4 p,
+    .aboutpg-box5 p{
+        font-size: 14px;
+        width: 100%;
+    }
+
+
+    
+    .aboutpg-box3,
+    .aboutpg-box4,
+    .aboutpg-box5 {
+        width: 100%; 
+        position: static; 
+        margin: 0, auto;
+    }
+    .aboutpg-box1 img,
+    .aboutpg-box2 img,
+    .aboutpg-form-box img{
+        height: 100px;
+        width:100%;
+        position: static;
+        margin: 0 auto;;
+    }
+
+    .btn {
+        width: 100%; 
+        left: 0;
+        transform: none; 
+        margin-bottom: 10px;
+    }
+
+    .aboutpg-box-container1 {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .aboutpg-box4 {
+       max-width: fit-content;
+        
+    }
+    
+    .aboutpg-box3,
+    .aboutpg-box5,
+    .aboutpg-form-box {
+        width: 100%; 
+        margin-left: 0; 
+    }
+    .aboutpg-form-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .form-group {
+        margin-bottom: 15px;
+        width: 100%; 
+      }
+      
+      /* Set the width of the input elements */
+      .form-group input {
+        width: 100%;
+        padding: 8px; 
+      }
+
+    .aboutpg-box4 p {
+        margin-bottom: 20px;
+    }
+
+    .aboutpg-box-container2 {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .aboutpg-box5 {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .aboutpg-box1 img,
+    .aboutpg-box2 img,
+    .aboutpg-box3 img,
+    .aboutpg-box4 img,
+    .aboutpg-box5 img,
+    .aboutpg-form-box img {
+        height: 100px; 
+        max-width: 50%; 
+    }
+    .aboutpg-box-container {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+        .aboutpg-box-container{
+            flex-direction: column;
+            align-items: center;
+            margin-left: auto;
+            margin-right:auto ;
+        }
+        .aboutpg-box-container1{
+            flex-direction: row;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: space-between;
+        }
+
+        .aboutpg-box-container2{
+            flex-direction:row;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: space-between;
+        }
+        .aboutpg-form-box{
+            max-height:fit-content;
+            max-width: 50%;
+        } 
+        .aboutpg-box5{
+           height:fit-content;
+           width:fit-content;
+        }
+
+
+    
+        .aboutpg-box1, .aboutpg-box2, .aboutpg-box3, .aboutpg-box4{
+            margin-left: 20px;
+            margin-right: 20px;
+            height: auto;
+            width:auto;
+           
+        }
+        .aboutpg-box3{
+            margin: 10px;
+        }
+        
+        .aboutpg-box1 p,
+        .aboutpg-box2 p,
+        .aboutpg-box3 p,
+        .aboutpg-box4 p,
+        .aboutpg-box5 p{
+            font-size: 30px;
+            width: 100%;
+        }
+       
+    
+        .aboutpg-box1 img, .aboutpg-box2 img {
+            position: static;
+            max-width: 30%;
+            left: 50%;
+            
+        }
+        .aboutpg-form-box img{
+            position: static;
+            max-width: 50%;
+            margin-left: 10px;
+            margin-right: 10px;;
+        }
+    }
+
+    @media only screen and  (max-width: 767px) {
+        .aboutpg-box1 img{
+            display: none;
+        }
+        .aboutpg-box-container{
+           flex-direction: column;
+           align-items: center;
+        }
+    }
+    @media only screen and (min-width: 767px) and (max-width: 1280px) {
+        .aboutpg-box1 img{
+            display: none;
+        }
+        .aboutpg-box-container{
+            flex-direction: column;
+            align-items: center;
+         }
+    }
+    @media screen and (min-width: 1800px) {
+        .aboutpg-box1 img{
+            display: none;
+        }
+    }
+    @media only screen and (max-width: 407px) {
+        .aboutpg-box-container {
+          flex-direction: column;
+          align-items: center;
+        }
+      
+        .aboutpg-box1 {
+          max-width: 100%; /* Set to 100% width on smaller screens */
+        }
+      }

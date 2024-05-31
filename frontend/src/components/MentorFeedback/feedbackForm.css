@@ -1,0 +1,57 @@
+.form {
+  text-align: center;
+}
+
+.myoptions {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  right: 350px;
+}
+
+.star {
+  padding: 15px;
+}
+.what {
+  font-weight: 750;
+  position: relative;
+  right: 150px;
+}
+.sub {
+  position: relative;
+}
+.box {
+  gap: 5px;
+  border-radius: 8px;
+  align-items: center;
+}
+.all-box {
+  justify-content: center;
+  padding: 5px;
+  /* display:flex; */
+  margin: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-left: 12vh;
+    width: 80%;
+    margin-bottom: 5px;
+    /* margin-top: 5px; */
+  }
+  .read-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-left: 12vh;
+    width: 80%;
+    margin-bottom: 5px;
+    /* margin-top: 5px; */
+  }
+}

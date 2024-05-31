@@ -1,0 +1,292 @@
+.notify-btns {
+  border-bottom: 1px solid gray;
+  padding: 1vw;
+  display: flex;
+  gap: 10px;
+  /* margin-top: 2%; */
+  position: relative;
+}
+
+.notify-btns button {
+  padding: 10px 20px;
+  margin-right: 20px;
+  height: 32px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  /* background-color: #25ced1;
+  color: white; */
+  transition: background-color 0.3s, color 0.3s;
+  /* Add smooth transition */
+}
+
+.notify-btns button.selected {
+  background-color: #25ced1;
+  color: white;
+}
+
+.noti-container {
+  margin-top: 1vh;
+}
+
+/* =================================== NOTIFICATION ====================================== */
+
+.notify {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* z-index: 100%; */
+  margin-left: 0%;
+  /* margin-right: 10%; */
+}
+
+.spinner-css {
+  margin-top: 10vh;
+  margin-left: 0vw;
+  height: 72px;
+  width: 72px;
+}
+
+
+
+.heading {
+  margin-top: 1%;
+}
+
+.profile-events {
+  margin-top: -36.5rem;
+}
+
+.side-nav-notifications {
+  margin-right: 100%;
+  margin-top: -40%;
+}
+
+.box-color {
+  border-radius: 12px;
+  box-shadow: 2px 2px 30px rgb(219, 219, 219);
+  background: rgba(242, 223, 154, 1);
+  height: 9vh;
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid gray;
+  margin: 1.5px;
+}
+
+.box {
+  border-radius: 12px;
+  box-shadow: 2px 2px 30px rgb(219, 219, 219);
+  padding-bottom: 10px;
+  height: 9vh;
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid gray;
+  margin: 1.5px;
+}
+
+@media screen and (max-width: 500px) {
+  
+  .box-color {
+    margin: auto;
+    margin-left: 8.5vh;
+    width: 95%;
+    margin-bottom: 5px;
+  }
+
+  .notify-btns::after {
+   
+    display: none;
+  }
+   
+  .profile-notify {
+    width: 100%;
+    margin-left: 7vw;
+    min-height: 100vh;
+    margin-bottom: 35vh;
+  }
+
+  .no-notify {
+    margin-top: 70px;
+    /* margin-left: 130px; */
+    text-align: center;
+  }
+  
+  .notifications-container {
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+
+  }
+}
+
+.box:hover {
+  background-color: #f4d76f;
+  /* border-radius: 12px; */
+}
+
+.no-notify {
+  margin-top: 70px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .profile-notify {
+    width: 60%;
+    margin-left: 7vw;
+    min-height: 100vh;
+    margin-bottom: 35vh;
+  }
+
+  .no-notify {
+    margin-top: 70px;
+    /* margin-left: 130px; */
+    text-align: center;
+  }
+  .notifications-container {
+    /* position: absolute; */
+    /* right: 13vw; */
+    width: 95%;
+    /* margin-left: -100px; */
+
+  }
+}
+
+
+
+@media (min-width: 500px){
+  .profile-notify {
+    width: 100%;
+    margin-left: 7vw;
+    min-height: 100vh;
+    margin-bottom: 35vh;
+  }
+
+  .no-notify {
+    margin-top: 70px;
+    /* margin-left: 130px; */
+    text-align: center;
+  }
+  
+  .notifications-container {
+    /* position: absolute; */
+    right: 13vw;
+    /* width: 65%; */
+    margin-left: auto;
+    margin-right: auto;
+    
+
+  }
+}
+@media (min-width: 600px) {
+  .profile-notify {
+    width: 100%;
+    margin-left: 7vw;
+    min-height: 100vh;
+    margin-bottom: 35vh;
+  }
+
+  .no-notify {
+    margin-top: 70px;
+    /* margin-left: 130px; */
+    text-align: center;
+  }
+  
+  .notifications-container {
+    /* position: absolute; */
+    right: 13vw;
+    width: 65%;
+    margin-left: 100px;
+    
+
+  }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+  .profile-notify {
+    width: 100%;
+    margin-left: 7vw;
+    min-height: 100vh;
+    margin-bottom: 35vh;
+  }
+
+  .no-notify {
+    margin-top: 70px;
+    /* margin-left: 130px; */
+    text-align: center;
+  }
+  
+  .notifications-container {
+    /* position: absolute; */
+    right: 13vw;
+    width: 1000px;
+    margin-left: -10px;
+    
+
+  }
+
+
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+  .profile-notify {
+    width: 60%;
+    margin-left: 7vw;
+    min-height: 100vh;
+    margin-bottom: 35vh;
+  }
+
+  .no-notify {
+    margin-top: 70px;
+    /* margin-left: 130px; */
+    text-align: center;
+  }
+  
+  .notifications-container {
+    /* position: absolute; */
+    right: 13vw;
+    width: 100%;
+    
+
+  }
+  
+  
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1190px) {
+  .profile-notify {
+    width: 60%;
+    margin-left: 7vw;
+    min-height: 100vh;
+    margin-bottom: 35vh;
+  }
+
+  .no-notify {
+    margin-top: 70px;
+    /* margin-left: 130px; */
+    text-align: center;
+  }
+  
+  .notifications-container {
+    /* position: absolute; */
+    right: 13vw;
+    width: 90%;
+    /* margin-left: -100px; */
+
+  }  
+
+}

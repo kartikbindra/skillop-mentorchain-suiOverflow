@@ -1,0 +1,70 @@
+body {
+  min-height: 100vh;
+  overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+.earning-dash {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%; /* Set max-width to 100% */
+  margin-left: -34px ;
+  font-weight: 100;
+  box-sizing: border-box; /* Include borders in width calculation */
+}
+
+.line-earning {
+  position: relative;
+  top: 19vh;
+}
+
+.info-dash-table {
+  padding-bottom: 20px;
+}
+
+#mentee_name {
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .earning-dash {
+    border-right: none; /* Remove right border on small screens */
+  }
+}
+
+@media (min-width: 500px) {
+  .total-mentee,
+  .earnings-dash {
+    width: 45%;
+  }
+}
+
+@media (min-width: 600px) {
+  .earning-dash {
+    max-width: calc(520px - 2px); /* Adjusted width to account for border */
+  }
+}
+
+@media (min-width: 768px) {
+  .earning-dash {
+    max-width: calc(600px - 2px); /* Adjusted width to account for border */
+  }
+}
+
+@media (min-width: 992px) {
+  .earning-dash {
+    max-width: calc(530px - 2px); /* Adjusted width to account for border */
+  }
+}
+
+@media (min-width: 1190px) {
+  .earning-dash {
+    max-width: calc(570px - 2px); /* Adjusted width to account for border */
+  }
+}
+
+@media (min-width: 1400px) {
+  .earning-dash {
+    max-width: calc(620px - 2px); /* Adjusted width to account for border */
+  }
+}
